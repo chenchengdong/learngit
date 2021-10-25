@@ -1,0 +1,167 @@
+body{
+    background-image: url("./img/xingxi.jpg");
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:"montserrat";
+}
+/* 顶部第一层盒子样式 */
+.header{
+    /* background-color: aqua; */
+    height: 100px;
+}
+/* ul样式 */
+.header-left{
+    width: 800px;
+    float:left
+}
+/* li样式 */
+.header-left li{
+    
+    float:left;
+    margin-left: 45px;
+    font-size: 16px;
+}
+.t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8{
+    color:whitesmoke
+}
+/* 去点点 */
+li{
+    list-style-type:none;
+}
+/* 去下划线 */
+a{
+    text-decoration: none;
+}
+/*右侧1层盒子样式 */
+.header-right{
+    /* background-color: tomato; */
+    width: 600px;
+    height: 60px;
+    position: relative;
+    left: 900px;
+    top:20px;
+}
+.a1{
+    display: inline-block;
+    /* background-color: yellowgreen; */
+    position: relative;
+    left:400px;
+    bottom:53px;
+}
+.a3{
+    height: 30px;
+    width: 60px;
+    /* background-color: red; */
+    position: relative;
+    bottom:110px;
+    left:275px;
+    color: whitesmoke;
+}
+.dropbtn{
+    border:none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.b2{
+    background-color: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+}
+/* 下拉内容 默认隐藏 */
+.drop-content{
+    background-color:white;
+    min-width: 200px;
+    position: absolute;
+    display: none;
+}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8{
+    display: block;
+    color: rgb(63, 63, 63);
+}
+/* 下拉内容展开 */
+.a1:hover .drop-content{
+    display: block;
+
+}
+.b2{
+    position: relative;
+    bottom:85px;
+    left:325px;
+    border:none;
+}
+/*  */
+.search{
+    /* background-color: burlywood; */
+    height:120px;
+    position: relative;
+    top:50px;
+}
+img{
+    margin-left: 130px;
+    height:50px;
+    float:left;
+    
+}
+.search-t{
+    margin-right: none;
+    margin-left: 50px;
+    border:none;
+    height: 50px;
+    width:540px;
+    float:left;
+}
+.search-btn{
+    margin-left: none;
+    border:none;
+    height:52px;
+    float:left;
+    color: rgb(0, 125, 170);
+   background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.foot{
+    /* background-color: grey; */
+    height: 70px;
+    position: relative;
+    top:425px;
+}
+.foot1{
+    height:40px;
+    width: 40px;
+    float:right;
+    margin-right: 100px;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    
+}
+.foot2{
+    height:40px;
+    width: 40px;
+    float:right;
+    margin-right: 35px;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+.foot3{
+    height:40px;
+    width: 40px;
+    float:right;
+    margin-right: 35px;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+.foot4{
+    height:40px;
+    width: 40px;
+    float:right;
+    margin-right: 35px;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
