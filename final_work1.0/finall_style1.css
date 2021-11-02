@@ -1,12 +1,12 @@
 body{
-    background-image: url("./img/xingxi.jpg");
+    background-image: url("./img1.0/xingxi.jpg");
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
     background-size: 100%;
     font-family:"montserrat";
 }
-/* 顶部第一层盒子样式 */
+/* 顶部第一层盒子样弄1�7 */
 .header{
     /* background-color: aqua; */
     height: 100px;
@@ -26,7 +26,7 @@ body{
 .t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8{
     color:whitesmoke
 }
-/* 去点点 */
+/* 去点炄1�7 */
 li{
     list-style-type:none;
 }
@@ -34,7 +34,7 @@ li{
 a{
     text-decoration: none;
 }
-/*右侧1层盒子样式 */
+/*右侧1层盒子样弄1�7 */
 .header-right{
     /* background-color: tomato; */
     width: 600px;
